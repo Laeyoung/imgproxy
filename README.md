@@ -1,3 +1,36 @@
+# imgproxy on Ainize
+
+[![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/imgproxy/imgproxy)
+
+
+### Step.1 Fork and Clone your imgproxy repo
+```
+git clone https://github.com/${YOUR-GITHUB-ID}/imgproxy.git
+
+```
+
+### Step.2 Docker build
+```
+docker build -t ${YOUR-DOCKER-HUB-ID}/imgproxy .
+```
+
+### Step.3 Sign up and apply beta test at [Ainize.ai](https://ainize.ai)
+
+### Step.4 Deploy imgproxy on Ainize ([Tutorial](https://ai-network.gitbook.io/ainize-tutorials/ainize/hello-world#ainize-steps))
+
+1. Enter your Github repo url, `https://github.com/${YOUR-GITHUB-ID}/imgproxy`
+2. Enter your dockerhub container id, `${YOUR-DOCKER-HUB-ID}/imgproxy`
+3. Set port as 8080.
+
+### Step.5 Test and Enjoy
+
+Sample image
+- https://i.imgur.com/vheGCAB.jpg
+
+Sample url (change __laeyoung__ to __your-ainize-ai__)
+- https://imgproxy.laeyoung.endpoint.dev.ainize.ai/sign/resize:auto:100:100:0/gravity:sm/plain/https://i.imgur.com/vheGCAB.jpg
+
+
 # imgproxy
 
 <img align="right" width="200" height="200" title="imgproxy logo"
