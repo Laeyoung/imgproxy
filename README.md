@@ -9,9 +9,10 @@ git clone https://github.com/${YOUR-GITHUB-ID}/imgproxy.git
 
 ```
 
-### Step.2 Docker build
+### Step.2 Docker build and push it to Docker Hub
 ```
 docker build -f docker/Dockerfile -t ${YOUR-DOCKER-HUB-ID}/imgproxy .
+docker push ${YOUR-DOCKER-HUB-ID}/imgproxy
 ```
 
 ### Step.3 Sign up and apply beta test at [Ainize.ai](https://ainize.ai)
