@@ -1,6 +1,6 @@
 # imgproxy on Ainize
 
-[![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/imgproxy/imgproxy)
+[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/imgproxy)
 
 
 ### Step.1 Fork and Clone your imgproxy repo
@@ -29,7 +29,7 @@ Sample image
 - https://i.imgur.com/vheGCAB.jpg
 
 Sample url (change __laeyoung__ to __your-ainize-ai__)
-- https://imgproxy.laeyoung.endpoint.dev.ainize.ai/sign/resize:auto:100:100:0/gravity:sm/plain/https://i.imgur.com/vheGCAB.jpg
+- https://imgproxy.laeyoung.endpoint.ainize.ai/sign/resize:auto:100:100:0/gravity:sm/plain/https://i.imgur.com/vheGCAB.jpg
 
 
 # imgproxy
